@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
 });
 
-const functionApi = 'http://localhost:7071/api/http_trigger';
+const functionApi = 'https://azure.mingshome.xyz';
 
 const getVisitCount = () => {
     fetch(functionApi)
