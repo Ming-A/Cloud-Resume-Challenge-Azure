@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
 });
 
-const functionApi = 'https://azure.mingshome.xyz';
+const functionApi = '${{ secrets.FUNCTION_URL }}';
 
 const getVisitCount = () => {
     fetch(functionApi)
